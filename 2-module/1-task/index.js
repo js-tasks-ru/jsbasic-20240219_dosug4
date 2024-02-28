@@ -6,6 +6,6 @@ function sumSalary(salaries) {
       continue
     }
     sum += salaries[key];
-}
-return sum;
+  }
+  return sum;
 }
