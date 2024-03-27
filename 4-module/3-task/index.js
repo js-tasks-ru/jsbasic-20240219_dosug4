@@ -10,7 +10,7 @@ function highlight(table) {
     } else if (availability === 'false') {
       row.classList.add('unavailable');
     } else {
-      row.setAttribute('row.hidden', true);
+      row.hidden = true;
     }
     
     if (cells[2].textContent === 'm') {
